@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Anonim Tag</string>
+    <string name="app_TitleName">Anonim Tag</string>
+    <string name="acceptTerms">I accept the terms of the license agreement</string>
+    <string name="textBegin">Begin</string>
+    <string name="textGender">Gender</string>
+    <string name="textMan">Man</string>
+    <string name="textWoman">Woman</string>
+    <string name="textNotSet">Not set</string>
+    <string name="textAny">Any</string>
+    <string name="textMyGender">My gender</string>
+    <string name="interlocutorsGender">Interlocutor\'s gender</string>
+    <string name="textBeginSearch">Begin search</string>
+    <string name="textTagHint">Enter tags separated by commas</string>
+    <string name="textTopTags">Tags in top:</string>
+</resources>

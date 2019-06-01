@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Anonim Tag</string>
+    <string name="app_TitleName">Anonim Tag</string>
+    <string name="acceptTerms">Я принимаю условия лицензионного соглашения</string>
+    <string name="textBegin">Начать</string>
+    <string name="textGender">Пол</string>
+    <string name="textMan">Парень</string>
+    <string name="textWoman">Девушка</string>
+    <string name="textNotSet">Не указан</string>
+    <string name="textAny">Любой</string>
+    <string name="textMyGender">Мой пол</string>
+    <string name="interlocutorsGender">Пол собеседника</string>
+    <string name="textBeginSearch">Начать поиск</string>
+    <string name="textTagHint">Вводите тэги через запятые</string>
+    <string name="textTopTags">Тэги в топе:</string>
+</resources>
