@@ -28,7 +28,7 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/textNotSet"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="18sp" />
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radioButtonIman"
@@ -39,7 +39,7 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/textMan"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="18sp" />
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radioButtonIwoman"
@@ -50,7 +50,7 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/textWoman"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="18sp" />
+            android:textSize="24sp" />
     </RadioGroup>
 
     <TextView
@@ -100,7 +100,7 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/textAny"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="18sp" />
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radioButtonInterlocMan"
@@ -111,7 +111,7 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/textMan"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="18sp" />
+            android:textSize="24sp" />
 
         <RadioButton
             android:id="@+id/radioButtonInterlocWoman"
@@ -122,7 +122,7 @@
             android:fontFamily="sans-serif-medium"
             android:text="@string/textWoman"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="18sp" />
+            android:textSize="24sp" />
     </RadioGroup>
 
     <Button
@@ -150,6 +150,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textCursorDrawable="@drawable/color_cursor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -159,21 +161,27 @@
         android:id="@+id/textViewTagHint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/textTagHint"
         android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroupMyGender"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupMyGender" />
 
     <TextView
         android:id="@+id/textViewTopTags"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/textTopTags"
         android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTags"
-        tools:layout_editor_absoluteX="168dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTags" />
 
     <ListView
         android:layout_width="0dp"
@@ -182,6 +190,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/radiostroke"
         app:layout_constraintBottom_toTopOf="@+id/buttonBeginSearch"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
