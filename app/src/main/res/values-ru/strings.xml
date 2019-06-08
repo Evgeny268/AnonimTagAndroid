@@ -13,4 +13,5 @@
     <string name="textBeginSearch">Начать поиск</string>
     <string name="textTagHint">Вводите тэги через запятые</string>
     <string name="textTopTags">Тэги в топе:</string>
+    <string name="textCanelSearch">Отменить поиск</string>
 </resources>

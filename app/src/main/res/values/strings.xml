@@ -13,4 +13,5 @@
     <string name="textBeginSearch">Begin search</string>
     <string name="textTagHint">Enter tags separated by commas</string>
     <string name="textTopTags">Tags in top:</string>
+    <string name="textCanelSearch">Cancel search</string>
 </resources>

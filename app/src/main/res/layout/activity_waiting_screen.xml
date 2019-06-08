@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".WaitingScreen">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="146dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="56dp"
+        android:text="@string/textCanelSearch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
