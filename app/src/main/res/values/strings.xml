@@ -14,4 +14,5 @@
     <string name="textTagHint">Enter tags separated by commas</string>
     <string name="textTopTags">Tags in top:</string>
     <string name="textCanelSearch">Cancel search</string>
+    <string name="textForgotTags">Tag field is empty!</string>
 </resources>
