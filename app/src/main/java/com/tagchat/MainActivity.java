@@ -45,4 +45,9 @@ public class MainActivity extends AppCompatActivity {
             buttonBegin.setEnabled(false);
         }
     }
+
+    @Override
+    public void onBackPressed() {
+
+    }
 }
